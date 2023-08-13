@@ -1,0 +1,31 @@
+body {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.lottie {
+  width: 100%;
+  max-width: 341px;
+  cursor: pointer;
+  transition: 300ms ease-out;
+  border: 1px solid #f5f5f5;
+  border-radius: 16px;
+  background-color: #F4F5F5;
+}
+
+.lottie:hover{
+  transform: translateY(-24px);
+}
+
+p{
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #999;
+}
